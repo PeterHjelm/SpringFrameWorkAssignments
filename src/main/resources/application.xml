@@ -25,4 +25,7 @@
 	<bean id="customerDao" class="se.yrgo.dataaccess.CustomerDaoJdbcTemplateImpl" init-method="createTables">
 		<constructor-arg ref="jdbcTemplate"/>
 	</bean>
+
 </beans>
+
+
